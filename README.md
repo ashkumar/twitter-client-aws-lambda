@@ -1,5 +1,5 @@
 # Twitter client proxy AWS lambda
-This is a lambda which can be used to proxy requests to Twitter's API, using AWS Lambda.
+This is a lambda which can be used to proxy requests to Twitter's API, using AWS Lambda. It uses [**BoyCook**/TwitterJSClient](https://github.com/BoyCook/TwitterJSClient) to make. limited, but 100% compliant API calls and can be easily extended to do more.
 
 [Live demo via AWS Gateway API endpoint](https://rkyfgerb90.execute-api.us-west-2.amazonaws.com/Public/TestClient?action=search&q=Bulgaria)
 
