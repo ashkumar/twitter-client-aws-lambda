@@ -1,0 +1,26 @@
+{
+  "name": "twitter-client-aws-lambda",
+  "version": "1.0.0",
+  "description": "An AWS labda that connects as an account proxy to Twitter API",
+  "main": "lambda.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:nvm": ""
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "node",
+    "twitter",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Andriyan Ivanov <andriyan.ivanov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "twitter-node-client": "0.0.6"
+  }
+}

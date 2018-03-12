@@ -1,0 +1,2 @@
+# Twitter client proxy via AWS lambda
+To build the client some configuration needs to be applied. Required *node_modules* are omitted and need to be installed separately and be uploaded along with the rest of the code.
