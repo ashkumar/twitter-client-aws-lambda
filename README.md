@@ -31,24 +31,24 @@ This is your standard Tweet search, the API accepts the following parameters:
 * `locale` - origin user locale
 * `lang` - search language
 
-### **?action**=user_search
+### **?action**=userSearch
 Search through the Twitter user accounts. Accepted parameters:
 
 * `q` - search string
 * `page` - search results page
 * `count` - number of results returned per page
 
-### **?action**=posts_by_user_id
-Retrieves posts by User ID
+### **?action**=postsByUserId
+Retrieves posts by Twitter User ID:
 
-* `id` - Twitter user id 
+* `id`
 
-### **?action**=posts_by_user
-Retrieves posts by User handle
+### **?action**=postsByScreenName
+Retrieves posts by Twitter screen name, params:
 
-* `user` - Twitter user to lookup
+* `screen_name`
 
 ### **?action**=tweet
-Retrieves a single tweet by ID
+Retrieves a single tweet by ID, params:
 
-* `id` - Tweet ID
+* `id`
